@@ -6,22 +6,9 @@
     <title>Taller 15.1</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Estilo para los párrafos */
-        .custom-paragraph {
-            font-size: 1rem; /* Tamaño de fuente estándar */
-            line-height: 1.5; /* Altura de línea para mejor legibilidad */
-        }
-        /* Justificar texto en las columnas */
-        .text-column {
-            text-align: justify; /* Justifica el texto */
-            margin-bottom: 15px; /* Espacio entre párrafos */
-            line-height: 1.5; /* Mejora la legibilidad */
-        }
-    </style>
 </head>
 <body>
-    <!-- Navbar -->
+    <!-- nabvar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">LOREM IPSUM</a>
@@ -30,7 +17,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item mx-2"> <!-- Agregado mx-2 para separar los elementos -->
+                    <li class="nav-item mx-2">
                         <a class="nav-link active" aria-current="page" href="#">Dolor</a>
                     </li>
                     <li class="nav-item mx-2">
@@ -39,7 +26,7 @@
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="#">Amet</a>
                     </li>
-                    <li class="nav-item dropdown d-lg-none"> <!-- Dropdown solo para SM y MD -->
+                    <li class="nav-item dropdown d-lg-none">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Opciones
                         </a>
@@ -53,12 +40,12 @@
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">buscar</button>
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
             </div>
         </div>
     </nav>
-    <!-- Contenido -->
+
     <div class="container mt-4">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-12">
@@ -69,18 +56,19 @@
                     <li class="list-group-item">Opción 4</li>
                 </ul>
             </div>
+
             <div class="col-lg-9 col-md-8 col-sm-12">
-                <h1>Lorem ipsum dolor</h1>
+                <h1 id="titulo"> Lorem ipsum dolor</h1>
                 <div id="textCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <p class="text-center">Vestibulum mollis, tortor ac congue commodo.</p>
                         </div>
                         <div class="carousel-item">
-                            <p class="text-center">Texto adicional que se alterna</p>
+                            <p class="text-center">...Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                         <div class="carousel-item">
-                            <p class="text-center">Otro texto que se alterna</p>
+                            <p class="text-center">...Porta quis vulputate et, bibendum tincidunt risus.</p>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#textCarousel" data-bs-slide="prev">
@@ -92,29 +80,23 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="container mt-4">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col text-column">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel fringilla ipsum, at maximus urna. Phasellus sit amet turpis vel ex pharetra blandit sit amet eu nisi. Nam efficitur, neque nec aliquet vestibulum, nisl ipsum congue ante, at luctus dolor tortor in arcu. Integer id mi eu tortor mollis consequat vel eu ex.
-                    Nulla quis sollicitudin magna. Duis sit amet leo eget augue imperdiet pretium. Aenean mattis dolor et orci commodo, pharetra ultricies orci pulvinar. Sed euismod leo ut sapien ultricies cursus. Nam egestas justo tellus, eget sollicitudin massa sollicitudin ut. Suspendisse quis ex non orci aliquam volutpat quis a felis.
-                    Duis vulputate sagittis lobortis. Quisque venenatis, eros nec finibus semper, neque augue scelerisque magna, id fermentum metus nisi a odio. Donec egestas nec elit quis gravida. Aenean enim sem, tempus non cursus a, ullamcorper eget nunc. Vivamus aliquam tortor quam, in blandit orci fringilla sit amet.
-                    Donec sollicitudin condimentum magna, sed mattis tellus posuere at. In dictum odio sed feugiat euismod. Ut varius tristique vulputate. Nam feugiat lectus sit amet magna posuere, et laoreet ante scelerisque. Maecenas ut libero quis lacus feugiat porta sed sed dui. Vivamus id massa vulputate sapien pretium facilisis.
-                    Aenean ac felis at felis porttitor ultrices. Vivamus vel congue est, nec dapibus mi. Pellentesque non lacus tempor, sagittis turpis in, interdum velit. In in arcu quis leo tempor sagittis. Sed vitae arcu hendrerit, laoreet arcu nec, laoreet eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Proin ut nisl nulla. Sed vel eleifend arcu.
-                </div>
-                <div class="col text-column">
-                    Mauris eu vestibulum ante. Fusce pulvinar mattis diam. Donec elementum risus et nunc gravida, sed cursus velit elementum. Phasellus vitae turpis vel odio faucibus sodales. Duis eget sem fringilla, vehicula augue id, laoreet erat. Suspendisse rhoncus tortor sollicitudin purus porttitor, eu tincidunt erat dignissim. Pellentesque lacinia facilisis nunc, sit amet lobortis risus. Donec a augue nec augue elementum aliquet. Donec at arcu sit amet augue consequat pharetra. Ut rutrum auctor nunc. Mauris commodo ipsum in turpis posuere rutrum in ullamcorper dui. Duis auctor porta orci, a ultricies metus gravida at. Nam consectetur semper ex eu feugiat. Duis vitae tortor tristique, pharetra metus ac, ornare odio. Fusce interdum odio id purus auctor, sed elementum quam molestie. Vivamus venenatis imperdiet mauris eu porta. Donec elementum, ex non egestas maximus, arcu arcu rhoncus diam, eget dictum orci justo ut enim. Morbi in ante ante. Phasellus quis leo eu nulla auctor iaculis. Curabitur sit amet orci metus. Praesent ligula lacus, vehicula non elementum vel, semper id mi. Integer nec magna vitae dolor laoreet molestie. Praesent suscipit nibh eget nibh rutrum cursus. Maecenas porttitor nibh vel massa laoreet sollicitudin. Morbi maximus non eros non porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque ac mauris bibendum orci eleifend ornare sit amet a metus. Ut vel placerat ipsum. Maecenas in magna dui.
-                </div>
-                <div class="col text-column">
-                    Nam eget nisl congue, gravida nisl vel, pretium sapien. Vestibulum euismod fringilla elit vitae finibus. Morbi efficitur ut dolor a pretium. Aliquam vitae orci odio. Nam iaculis ante lobortis metus mollis, eget dignissim nulla consectetur. Donec volutpat malesuada purus, non efficitur metus sodales non. Pellentesque metus ante, egestas quis elementum et, bibendum ac magna. Duis odio arcu, euismod sed nulla a, mollis dapibus sapien. In eget interdum neque. Etiam imperdiet, neque ut tincidunt pulvinar, tellus metus dapibus velit, sit amet blandit purus est non nulla. Suspendisse placerat interdum elit at consectetur. Mauris pellentesque a mauris quis facilisis.
+
+                <div class="row mt-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-column">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere sit amet nisl laoreet tincidunt. Nulla et iaculis velit. Proin quis posuere velit, a venenatis nisi. Maecenas faucibus fringilla ipsum in commodo. Praesent vehicula ante in turpis pellentesque, in tempus purus tincidunt. Sed ut elit aliquam tortor placerat lobortis. Donec vel ipsum accumsan, blandit neque id, volutpat risus. Nulla molestie venenatis dui sit amet euismod. Sed interdum justo at aliquet ornare. Proin quis risus risus. Curabitur condimentum pretium risus vel dapibus. Nullam at orci placerat ex suscipit mattis. Curabitur dui velit, elementum vel feugiat in, ornare et diam. Curabitur eu fringilla erat, vitae dapibus lectus. Morbi ipsum orci, vulputate ut ex a, placerat maximus lacus. Suspendisse consectetur hendrerit massa ac gravida. Maecenas leo nisl, ullamcorper sit amet turpis sed, euismod egestas lectus. Nullam hendrerit quis metus ac blandit. Vivamus venenatis rutrum nisl, condimentum luctus ipsum sollicitudin mattis. Praesent faucibus, leo in egestas tincidunt, nisl arcu sollicitudin massa, eget commodo lacus risus in ipsum. Proin quis mattis mi. Mauris egestas egestas est.
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-column">
+                        Morbi quis cursus mi, non aliquam nibh. Integer blandit lectus in metus sodales egestas. Donec non augue ut felis rhoncus consectetur. Ut auctor nec metus in tristique. Aliquam id finibus tellus. Curabitur aliquet malesuada turpis, ac euismod quam. Aliquam eget mi interdum, finibus nisl in, egestas neque. Integer luctus, neque non feugiat ultrices, lacus erat lobortis odio, vitae hendrerit turpis sem nec urna. Nulla luctus lacinia libero, eu tempor orci efficitur sed. Proin efficitur facilisis tristique. Nam ultricies vestibulum augue ac auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lacinia rhoncus diam. In aliquam id massa in vehicula. Curabitur augue diam, tincidunt ut neque vel, sollicitudin pulvinar tortor. Pellentesque tempus fermentum eros, fermentum pharetra turpis laoreet vel. Cras vel maximus dolor, ac cursus massa. Donec tristique hendrerit libero, efficitur dignissim quam pellentesque at. Mauris nisl sem, hendrerit in nunc eget, ullamcorper vehicula ex. In vitae mauris et ipsum commodo lobortis ac ac leo. Sed porttitor varius diam, et iaculis mauris fermentum vitae. Nunc sed neque magna.
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-column">
+                        Duis diam mauris, porta quis vulputate et, bibendum tincidunt risus. Aliquam erat volutpat. Cras aliquam urna a urna venenatis scelerisque. Mauris suscipit hendrerit sapien vulputate vulputate. Quisque quis lectus vulputate, porta mi in, consequat mi. Donec tempus, ligula sed varius tincidunt, enim urna pellentesque dolor, eget accumsan purus risus eget nulla. Nulla nec ultrices metus. Suspendisse diam lorem, vulputate vitae mi ac, porttitor tempor est. Integer ullamcorper ex ex, vel dignissim dolor pulvinar id. Proin commodo vestibulum enim sit amet pellentesque. Nam gravida, diam sed posuere rutrum, libero urna aliquet lectus, vitae dapibus lorem ipsum eu nibh. Vivamus vitae varius ex. Sed ut placerat ante, eu volutpat ligula. Curabitur augue diam, tincidunt ut neque vel, sollicitudin pulvinar tortor. Pellentesque tempus fermentum eros, fermentum pharetra turpis laoreet vel. Cras vel maximus dolor, ac cursus massa. Donec tristique hendrerit libero, efficitur dignissim quam pellentesque at. 
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
