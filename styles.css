@@ -1,0 +1,43 @@
+.navbar-nav .nav-item {
+    margin: 0 15px; /* Espaciado horizontal entre los elementos del navbar */
+}
+
+.dropdown-menu {
+    background-color: #ffffff; /* Fondo blanco para el menú desplegable */
+}
+
+.custom-paragraph {
+    margin-bottom: 15px; /* Espacio entre párrafos */
+    line-height: 1.5; /* Mejora la legibilidad */
+}
+
+/* Justificar texto en las columnas */
+.col {
+    text-align: justify; /* Justifica el texto */
+    margin-bottom: 15px; /* Espacio entre párrafos */
+    line-height: 1.5; /* Mejora la legibilidad */
+}
+
+/* Media query para ajustar el número de columnas dependiendo del tamaño de la pantalla */
+@media (max-width: 768px) {
+    .col-lg-3, .col-lg-9 {
+        flex: 0 0 100%; /* Columna ocupará el 100% en pantallas pequeñas */
+    }
+}
+
+/* 4. Eliminar espacio alrededor del carrusel */
+.carousel {
+    margin-top: 20px; /* Margen superior para separar del título */
+}
+
+/* 5. Ajuste adicional para el carrusel */
+.carousel-inner {
+    padding: 20px; /* Espaciado interno del carrusel */
+}
+
+/* Justificar texto en las columnas */
+.text-column {
+    text-align: justify; /* Justifica el texto */
+    margin-bottom: 15px; /* Espacio entre párrafos */
+    line-height: 1.5; /* Mejora la legibilidad */
+}
